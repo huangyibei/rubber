@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css" />
+		<style type="text/css">
+			@font-face {
+				font-family: "iconfont";
+				src: url('foniconfont.eot');
+				/* IE9*/
+				src: url('iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+				url('iconfont.woff') format('woff'), /* chrome, firefox */
+				url('iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+				url('iconfont.svg#iconfont') format('svg');
+				/* iOS 4.1- */
+			}
+			
+			.iconfont {
+				font-family: "iconfont" !important;
+				font-size: 16px;
+				font-style: normal;
+				-webkit-font-smoothing: antialiased;
+				-webkit-text-stroke-width: 0.2px;
+				-moz-osx-font-smoothing: grayscale;
+			}
+		</style>
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+	</head>
+
+	<body>
+		<!--header-->
+		<header class="mui-bar mui-bar-nav header">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">橡皮堂艺术中心</h1>
+		</header>
+		<!--banner-->
+		<div id="slider" class="mui-slider">
+			<div class="mui-slider-group mui-slider-loop">
+				<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="img/5.jpg">
+					</a>
+				</div>
+				<!-- 第一张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="img/1.jpg">
+					</a>
+				</div>
+				<!-- 第二张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="img/2.jpg">
+					</a>
+				</div>
+				<!-- 第三张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="img/3.jpg">
+					</a>
+				</div>
+				<!-- 第四张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="img/4.jpg">
+					</a>
+				</div>
+				<!-- 第五张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="img/5.jpg">
+					</a>
+				</div>
+				<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="img/1.jpg">
+					</a>
+				</div>
+			</div>
+			<div class="mui-slider-indicator">
+				<div class="mui-indicator mui-active"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+			</div>
+		</div>
+		<!--content-->
+		<div class="mui-content-padded">
+			<!--九宫格-->
+			<ul class="mui-table-view mui-grid-view mui-grid-9">
+				<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-4">
+					<a href="#">
+						<span class="mui-icon mui-icon-home"></span>
+						<div class="mui-media-body">关于橡皮堂</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-4">
+					<a href="#">
+						<span class="mui-icon mui-icon-email"></span>
+						<div class="mui-media-body">课程介绍</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-4">
+					<a href="#">
+						<span class="mui-icon mui-icon-chatbubble"></span>
+						<div class="mui-media-body">主题活动</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-4">
+					<a href="#">
+						<span class="mui-icon mui-icon-location"></span>
+						<div class="mui-media-body">名师简介</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-4">
+					<a href="#">
+						<span class="mui-icon mui-icon-search"></span>
+						<div class="mui-media-body">作品欣赏</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-4">
+					<a href="#">
+						<span class="mui-icon mui-icon-phone"></span>
+						<div class="mui-media-body">免费体验</div>
+					</a>
+				</li>
+			</ul>
+			<!--作品列表-->
+			<ul class="mui-table-view mui-grid-view">
+				<li class="mui-table-view-cell mui-col-xs-6 mui-col-sm-6">
+					<a href="#">
+						<img class="table-view-img" src="img/1.jpg">
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-col-xs-6 mui-col-sm-6">
+					<a href="#">
+						<img class="table-view-img" src="img/1.jpg">
+					</a>
+				</li>
+			</ul>
+
+			<div class="sctab">
+				<h4>作品欣赏</h4>
+			</div>
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell">
+					<a href="javascript:;">
+						<div class="mui-ellipsis">
+							<img class="table-view-img" src="img/1.jpg">
+							<p>2.5-5岁艺术作品</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a href="javascript:;">
+						<div class="mui-ellipsis">
+							<img class="table-view-img" src="img/2.jpg">
+							<p>5-9岁艺术作品</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell">
+					<a href="javascript:;">
+						<div class="mui-ellipsis">
+							<img class="table-view-img" src="img/3.jpg">
+							<p>9岁以上艺术作品</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		
+		<!--footer-->
+		<div class="footer-null"></div>
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item mui-active">
+				<span class="mui-icon iconfont">&#xe63e;</span>
+				<span class="mui-tab-label">首页</span>
+			</a>
+			<a class="mui-tab-item">
+				<span class="mui-icon iconfont">&#xe610;</span>
+				<span class="mui-tab-label">课程介绍</span>
+			</a>
+			<a class="mui-tab-item">
+				<span class="mui-icon iconfont">&#xe627;</span>
+				<span class="mui-tab-label">作品欣赏</span>
+			</a>
+			<a class="mui-tab-item">
+				<span class="mui-icon iconfont">&#xe677;</span>
+				<span class="mui-tab-label">免费体验</span>
+			</a>
+		</nav>
+	</body>
+
+</html>
